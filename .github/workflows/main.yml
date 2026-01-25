@@ -2,7 +2,7 @@ name: Starter Pipeline #Worflow name
 
 on: push #trigger
 
-Workflow_dispatch:
+workflow_dispatch:
 
 jobs: 
   test:
