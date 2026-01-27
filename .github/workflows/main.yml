@@ -50,6 +50,10 @@ jobs:
         id: version
         run: echo "version=1.0.${{ github.run_number }}" >> $GITHUB_OUTPUT
 
+      #Find the path
+      - name: locate path
+        run: ls -al
+
       # 5️⃣ PACK: Create NuGet package (.nupkg)
       - name: Pack NuGet package
         run: |
