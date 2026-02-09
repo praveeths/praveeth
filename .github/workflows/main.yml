@@ -1,9 +1,9 @@
-name: praveeth_demopipeline
-
+name: Demo Pipeline
+ 
 on: push
-
+ 
 jobs:
- test:  
-  run-on: ubuntu-latest  
-  steps:
-  - run: echo "Hello World"
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello World!"
